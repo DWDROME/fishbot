@@ -60,6 +60,12 @@ ros2 launch fishbot_navigation2 navigation2.launch.py use_sim_time:=True
 
 <!-- submodule https://github.91chi.fun/https://github.com/ros-planning/navigation2.git -->
 
+### 键盘控制
+```
+sudo apt install ros-humble-teleop-twist-keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
 ## 作者
 - [鱼香ROS](https://fishros.com)-小鱼
 
